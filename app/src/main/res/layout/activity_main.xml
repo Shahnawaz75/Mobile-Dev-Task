@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ff5733"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:gravity="center">
+<!--            <TextView-->
+<!--                android:id="@+id/textView4"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Left Icon"-->
+<!--                android:gravity="start"-->
+<!--                android:height="60dp"-->
+<!--                android:layout_gravity="start"/>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_menu_24"
+                android:padding="16dp"
+                android:layout_gravity="start"/>
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+            android:text="Menu"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+                />
+<!--            <TextView-->
+<!--                android:id="@+id/textView5"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Right Icon"-->
+<!--                android:height="60dp"-->
+<!--                android:gravity="end"-->
+<!--                android:layout_gravity="end" />-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_shopping_cart_24"
+                android:padding="16dp"
+                android:layout_gravity="start"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="start"
+
+            android:scaleType="fitXY"
+            android:src="@drawable/menu1" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@drawable/dashed_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:minHeight="?attr/actionBarSize"
+
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="30dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Burger"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                 />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@drawable/dashed_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:minHeight="?attr/actionBarSize"
+
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="30dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_1"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Chiness"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@drawable/dashed_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:minHeight="?attr/actionBarSize"
+
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="30dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_2"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Coffee"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@drawable/dashed_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:minHeight="?attr/actionBarSize"
+
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="30dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_3"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Desserts"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@drawable/dashed_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:minHeight="?attr/actionBarSize"
+
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="30dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_4"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ice-Creams
+"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@drawable/dashed_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:minHeight="?attr/actionBarSize"
+
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="30dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_5"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pizza"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
